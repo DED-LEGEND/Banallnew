@@ -6,18 +6,18 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , CallbackQuery 
 
 START_PIC = [
-    "https://files.catbox.moe/tpo7zr.jpg",    
+    "https://envs.sh/Lkz.jpg",    
 ]
 ban_txt = """
 ʜᴇʟʟᴏ **{}**
 ɪ ʜᴀᴠᴇ sᴏᴍᴇ ɪɴᴛᴇʀᴇsᴛɪɴɢ ᴘʟᴜɢɪɴs ʏᴏᴜ sʜᴏᴜʟᴅ ᴛʀʏ ɪᴛ ʙʏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ.
 ᴀᴅᴅ ᴍᴇ ɪɴ ᴏᴛʜᴇʀs ɢʀᴏᴜᴘ ᴛᴏ ᴅᴇsᴛʀᴏʏ ɪᴛ.
-ᴘᴏᴡᴇʀ ʙʏ : @ll_BAD_MUNDA_ll
+ᴘᴏᴡᴇʀ ʙʏ : @DX_LUCKY @DX_INFO
 """
 
 help_txt = """
 » ᴛᴀᴘ ᴛᴏ sᴇᴇ ᴄᴏᴍᴍᴀɴᴅs
-ᴘᴏᴡᴇʀ ʙʏ : @ll_BAD_MUNDA_ll
+ᴘᴏᴡᴇʀ ʙʏ : @DX_LUCKY @DX_INFO
 """
 killall_txt = """
 **ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ɪɴ ɢʀᴏᴜᴘs**
@@ -35,7 +35,7 @@ killall_txt = """
 ⨷ .banallllll : ʙᴀɴ-ᴀʟʟ ᴍᴇᴍʙᴇʀs ɪɴ ᴀ ɢʀᴏᴜᴘ
 ⨷ .banalllllll : ʙᴀɴ-ᴀʟʟ ᴍᴇᴍʙᴇʀs ɪɴ ᴀ ɢʀᴏᴜᴘ
 
-ᴘᴏᴡᴇʀ ʙʏ : @ll_BAD_MUNDA_ll
+ᴘᴏᴡᴇʀ ʙʏ : @DX_LUCKY @DX_INFO
 """
 app_buttons = [
 
@@ -61,7 +61,7 @@ button = InlineKeyboardMarkup([
     
        [
            InlineKeyboardButton("ʜᴇʟᴘ ߷", callback_data="help_"),
-           InlineKeyboardButton("sᴏᴜʀᴄᴇ ߷", url=f"https://github.com/Badhacker98/Banall/fork"),
+           InlineKeyboardButton("sᴏᴜʀᴄᴇ ߷", url=f"https://t.me/DX_INFO"),
         ],
     [
            InlineKeyboardButton("⟲ ᴄʟᴏꜱᴇ ⟳", callback_data="close_data"),  
@@ -95,7 +95,7 @@ async def cb_handler(client, query):
     
        [
            InlineKeyboardButton("ʜᴇʟᴘ ߷", callback_data="help_"),
-           InlineKeyboardButton("sᴏᴜʀᴄᴇ ߷", url=f"https://github.com/Badhacker98/Banall/fork"),
+           InlineKeyboardButton("sᴏᴜʀᴄᴇ ߷", url=f"https://t.me/DX_INFO"),
         ],
     [
            InlineKeyboardButton("⟲ ᴄʟᴏꜱᴇ ⟳", callback_data="close_data"),  
